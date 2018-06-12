@@ -8,8 +8,8 @@ WORDS = []
 PHRASES = {
         "class %%%(%%%):":
           "Make a class named  %%% that is-a %%%.",
-        "class %%%(object):\n\tdef _init_(self, ***)":
-          "class %%% has-a _init_ that takes self and *** params.",
+        "class %%%(object):\n\tdef __init__(self, ***)":
+          "class %%% has-a __init__ that takes self and *** params.",
         "class %%%(object):\n\tdef ***(self, @@@)":
           "class %%% has-a function *** that takes self and @@@ params.",
         "*** = %%%()":
