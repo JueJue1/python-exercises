@@ -29,4 +29,4 @@ son = Child()
 
 son.implicit()
 son.override()
-son.altered()
+son.altered( )
