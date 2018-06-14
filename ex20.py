@@ -17,7 +17,7 @@ print("First let's print the whole file:\n")
 
 print_all(current_file)
 
-print("Now let's rewin, kind of like a tape.")
+print("Now let's rewind, kind of like a tape.")
 
 rewind(current_file)
 
@@ -30,4 +30,4 @@ current_line = current_line + 1
 print_a_line(current_line, current_file)
 
 current_line = current_line + 1
-print_a_lie(current_line, current_file)
+print_a_line(current_line, current_file)
